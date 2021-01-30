@@ -62,14 +62,38 @@ namespace Example_005
         }
 
         /// <summary>
+        /// Read parameter
+        /// </summary>
+        /// <param name="label"></param>
+        /// <param name="min"></param>
+        /// <param name="max"></param>
+        /// <returns></returns>
+        public static int ReadParameter(string label, int min = 1, int max = 999)
+        {
+            WriteOnCenter(label);
+            var error = UserInputStatus.NoError;
+            int n = ReadInt(1, 999, ref error);
+            if (error != UserInputStatus.NoError)
+            {
+                do
+                {
+                    WriteOnCenter(label);
+                    n = ReadInt(1, 999, ref error); 
+                } while (error != UserInputStatus.NoError);
+            }
+
+            return n;
+        }
+
+        /// <summary>
         /// Выводим строку по центру экрана
         /// </summary>
         /// <param name="text"></param>
         /// <param name="onCenter"></param>
-        public static void WriteOnCenter(String text, bool onCenter = false)
+        public static void WriteOnCenter(string text, bool onCenter = false)
         {
-            int columnLength = onCenter ? text.Length : 33;
-            int cursorLeft = (int)((Console.WindowWidth - columnLength) / 2);
+            var columnLength = onCenter ? text.Length : 33;
+            var cursorLeft = (Console.WindowWidth - columnLength) / 2;
             
             if (cursorLeft > 0)
                 Console.CursorLeft = cursorLeft;
@@ -80,7 +104,7 @@ namespace Example_005
         /// Вывести на экран текст ошибки
         /// </summary>
         /// <param name="text"></param>
-        public static void ShowError(String text)
+        public static void ShowError(string text)
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Black;
@@ -89,12 +113,10 @@ namespace Example_005
             Console.ReadKey();
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.BackgroundColor = ConsoleColor.Black;
-
         }
         
         public static Choice ShowMainMenu()
         {
-            Choice resultChoice = Choice.None;
             WriteOnCenter("1: Задание 1");
             WriteOnCenter("2: Задание 2");
             WriteOnCenter("3: Задание 3");
@@ -103,7 +125,7 @@ namespace Example_005
             WriteOnCenter("════════════");
             WriteOnCenter("0: Выход");
             var error = UserInputStatus.NoError;
-            resultChoice = (Choice) ReadInt(ref error);;
+            var resultChoice = (Choice) ReadInt(ref error);;
             if (error != UserInputStatus.NoError)
             {
                 resultChoice = Choice.None;

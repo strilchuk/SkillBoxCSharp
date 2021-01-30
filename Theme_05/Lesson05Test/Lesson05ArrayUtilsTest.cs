@@ -23,10 +23,10 @@ namespace Lesson05Test
             TestName = "TC-0002",
             Description = "Получить случайный Int массив"
         )]
-        public void GetRandomIntArrTest(int Size, int Min, int Max, int[] ExpectedResult)
+        public void GetRandomIntArrTest(int size, int min, int max, int[] expectedResult)
         {
-            var array = UtilsArray.GetRandomIntArr(Size, Min, Max);
-            Assert.That(array, Is.EqualTo(ExpectedResult));
+            var array = UtilsArray.GetRandomIntArr(size, min, max);
+            Assert.That(array, Is.EqualTo(expectedResult));
         }
 
         [TestCase(
@@ -70,20 +70,20 @@ namespace Lesson05Test
             Description = "Разделить один массив на другой"
         )]
         public void OperateIntArrTest(
-            int[] Arr1,
-            int[] Arr2,
-            UtilsArray.ArrayOperation Operation,
-            int[] ExpectedResult
+            int[] arr1,
+            int[] arr2,
+            UtilsArray.ArrayOperation operation,
+            int[] expectedResult
         )
         {
-            if (Arr1.Length == Arr2.Length)
+            if (arr1.Length == arr2.Length)
             {
-                var actualArray = UtilsArray.OperateIntArr(Arr1, Arr2, Operation);
-                Assert.That(actualArray, Is.EqualTo(ExpectedResult));
+                var actualArray = UtilsArray.OperateIntArr(arr1, arr2, operation);
+                Assert.That(actualArray, Is.EqualTo(expectedResult));
             }
             else
             {
-                Assert.Throws<Exception>(() => UtilsArray.OperateIntArr(Arr1, Arr2, Operation));
+                Assert.Throws<Exception>(() => UtilsArray.OperateIntArr(arr1, arr2, operation));
             }
         }
 
@@ -155,6 +155,48 @@ namespace Lesson05Test
             int[,] matrix6 = {{4}, {5}, {6}};
 
             Assert.Throws<Exception>(() => UtilsArray.MatrixMultiplication(matrix5, matrix6));
+        }
+        
+        [TestCase(
+            TestName = "TC-0011",
+            Description = "Сложение и вычитание матриц"
+        )]
+        public void SummationMatrixTest()
+        {
+            int[,] matrix1 = {{1, 3, 5}, {4, 5, 7}, {5, 3, 1}};
+            int[,] matrix2 = {{1, 3, 4}, {2, 5, 6}, {3, 6, 7}};
+            int[,] expectedMatrix1 = {{2, 6, 9}, {6, 10, 13}, {8, 9, 8}};
+            int[,] expectedMatrix2 = {{0, 0, 1}, {2, 0, 1}, {2, -3, -6}};
+            int[,] actualMatrix1 = UtilsArray.SummationMatrix(matrix1, matrix2, UtilsArray.MatrixOperation.Plus);
+            int[,] actualMatrix2 = UtilsArray.SummationMatrix(matrix1, matrix2, UtilsArray.MatrixOperation.Minus);
+
+            for (var i = 0; i < actualMatrix1.GetLength(0); i++)
+            {
+                for (var j = 0; j < actualMatrix1.GetLength(1); j++)
+                {
+                    Assert.IsTrue(actualMatrix1[i, j] == expectedMatrix1[i, j]);
+                }
+            }
+            for (var i = 0; i < actualMatrix2.GetLength(0); i++)
+            {
+                for (var j = 0; j < actualMatrix2.GetLength(1); j++)
+                {
+                    Assert.IsTrue(actualMatrix2[i, j] == expectedMatrix2[i, j]);
+                }
+            }
+            
+            int[,] matrix5 = {{1, 3}, {4, 5}};
+            int[,] matrix6 = {{1, 3, 4}, {2, 5, 6}, {3, 6, 7}};
+            Assert.Throws<Exception>(() => UtilsArray.SummationMatrix(
+                matrix5, 
+                matrix6, 
+                UtilsArray.MatrixOperation.Plus)
+            );
+            Assert.Throws<Exception>(() => UtilsArray.SummationMatrix(
+                matrix5, 
+                matrix6, 
+                UtilsArray.MatrixOperation.Minus)
+            );            
         }
     }
 }

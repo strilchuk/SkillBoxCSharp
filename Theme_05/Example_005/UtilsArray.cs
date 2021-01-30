@@ -14,6 +14,12 @@ namespace Example_005
             Multiplication,
             Division
         }
+        
+        public enum MatrixOperation
+        {
+            Plus,
+            Minus
+        }
 
         /// <summary>
         /// Return array of random value
@@ -30,7 +36,6 @@ namespace Example_005
             {
                 arr[i] = random.Next(min, max + 1);
             }
-
             return arr;
         }
 
@@ -72,7 +77,6 @@ namespace Example_005
                         break;
                 }
             }
-
             return resArr;
         }
 
@@ -93,7 +97,6 @@ namespace Example_005
                     resMatrix[i, j] = matrix[i, j] * k;
                 }
             }
-
             return resMatrix;
         }
 
@@ -106,29 +109,66 @@ namespace Example_005
         /// <exception cref="Exception"></exception>
         public static int[,] MatrixMultiplication(int[,] matrix1, int[,] matrix2)
         {
-            int n1 = matrix1.GetLength(0);
-            int m1 = matrix1.GetLength(1);
-            int n2 = matrix2.GetLength(0);
-            int m2 = matrix2.GetLength(1);
+            var n1 = matrix1.GetLength(0);
+            var m1 = matrix1.GetLength(1);
+            var n2 = matrix2.GetLength(0);
+            var m2 = matrix2.GetLength(1);
 
             if (n2 != m1)
             {
                 throw new Exception("Количество столбцов M1 должно быть равно количеству строк M2");
             }
 
-            int[,] resMatrix = new int[n1, m2];
-            for (int i = 0; i < n1; i++)
+            var resMatrix = new int[n1, m2];
+            for (var i = 0; i < n1; i++)
             {
-                for (int j = 0; j < m2; j++)
+                for (var j = 0; j < m2; j++)
                 {
                     resMatrix[i, j] = 0;
-                    for (int k = 0; k < m1; k++)
+                    for (var k = 0; k < m1; k++)
                     {
                         resMatrix[i, j] += matrix1[i, k] * matrix2[k, j];
                     }
                 }
             }
+            return resMatrix;
+        }
 
+        /// <summary>
+        /// Summation matrix
+        /// </summary>
+        /// <param name="matrix1"></param>
+        /// <param name="matrix2"></param>
+        /// <param name="operation"></param>
+        /// <returns></returns>
+        public static int[,] SummationMatrix(int[,] matrix1, int[,] matrix2, MatrixOperation operation)
+        {
+            var n1 = matrix1.GetLength(0);
+            var m1 = matrix1.GetLength(1);
+            
+            var n2 = matrix2.GetLength(0);
+            var m2 = matrix2.GetLength(1);        
+            
+            if (n1 != n2 || m1 != m2)
+            {
+                throw new Exception("Количество строк и столбцов в матрицах должно совпадать");
+            }
+            
+            var resMatrix = new int[n1, m1];
+            for (int i = 0; i < n1; i++)
+            {
+                for (int j = 0; j < m1; j++)
+                {
+                    if (operation == MatrixOperation.Plus)
+                    {
+                        resMatrix[i, j] = matrix1[i, j] + matrix2[i, j];                        
+                    }
+                    else
+                    {
+                        resMatrix[i, j] = matrix1[i, j] - matrix2[i, j];
+                    }
+                }
+            }
             return resMatrix;
         }
 
@@ -143,7 +183,7 @@ namespace Example_005
         public static int[,] GetRandomIntMatrix(int n, int m, int min, int max)
         {
             var random = new Random(Guid.NewGuid().GetHashCode());
-            var matrix = new int[n, n];
+            var matrix = new int[n, m];
             for (var i = 0; i < n; i++)
             {
                 for (var j = 0; j < m; j++)
@@ -151,7 +191,6 @@ namespace Example_005
                     matrix[i, j] = random.Next(min, max);
                 }
             }
-
             return matrix;
         }
     }
