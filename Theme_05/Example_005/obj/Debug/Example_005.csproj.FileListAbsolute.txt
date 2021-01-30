@@ -5,3 +5,10 @@ C:\code\Skillbox\Профессия Разработчик игр на Unity с 
 C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_05\Example_005\obj\Debug\Example_005.csproj.CoreCompileInputs.cache
 C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_05\Example_005\obj\Debug\Example_005.exe
 C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_05\Example_005\obj\Debug\Example_005.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_005\bin\Debug\Example_005.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_005\bin\Debug\Example_005.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_005\bin\Debug\Example_005.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_005\obj\Debug\Example_005.csprojAssemblyReference.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_005\obj\Debug\Example_005.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_005\obj\Debug\Example_005.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_005\obj\Debug\Example_005.pdb

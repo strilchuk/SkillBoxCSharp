@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3d0e5f63_002D0c26_002D4318_002Da833_002D04ef29b57b5c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;Theme_05&amp;gt;\&amp;lt;Lesson_05&amp;gt;\&amp;lt;Lesson05Test&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_05\Lesson05Test" Presentation="&amp;lt;Theme_05&amp;gt;\&amp;lt;Lesson_05&amp;gt;\&amp;lt;Lesson05Test&amp;gt;" /&gt;&#xD;
+  &lt;Project Location="C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test" Presentation="&amp;lt;Theme_05&amp;gt;\&amp;lt;Lesson_05&amp;gt;\&amp;lt;Lesson05Test&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=_041A_043E_043B_0438_0447_0435_0441_0442_0432_043E/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=_043C_0430_0441_0441_0438_0432_0435/@EntryIndexedValue">True</s:Boolean>

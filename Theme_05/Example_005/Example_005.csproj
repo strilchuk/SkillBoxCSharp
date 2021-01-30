@@ -45,6 +45,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Task1.cs" />
+    <Compile Include="Task2.cs" />
+    <Compile Include="Task3.cs" />
+    <Compile Include="Task4.cs" />
+    <Compile Include="Task5.cs" />
     <Compile Include="UtilsArray.cs" />
     <Compile Include="UtilsCommon.cs" />
   </ItemGroup>

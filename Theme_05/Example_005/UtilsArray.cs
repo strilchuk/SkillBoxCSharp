@@ -18,17 +18,17 @@ namespace Example_005
         /// <summary>
         /// Return array of random value
         /// </summary>
-        /// <param name="Size">Array size</param>
-        /// <param name="Min">Min value in array</param>
-        /// <param name="Max">Max value in array</param>
+        /// <param name="size">Array size</param>
+        /// <param name="min">Min value in array</param>
+        /// <param name="max">Max value in array</param>
         /// <returns>int[] Array</returns>
-        public static int[] GetRandomIntArr(int Size, int Min, int Max)
+        public static int[] GetRandomIntArr(int size, int min, int max)
         {
             var random = new Random(Guid.NewGuid().GetHashCode());
-            var arr = new int[Size];
-            for (var i = 0; i < Size; i++)
+            var arr = new int[size];
+            for (var i = 0; i < size; i++)
             {
-                arr[i] = random.Next(Min, Max + 1);
+                arr[i] = random.Next(min, max + 1);
             }
 
             return arr;
@@ -37,38 +37,38 @@ namespace Example_005
         /// <summary>
         /// Sum two arrays of type int and returns a new one
         /// </summary>
-        /// <param name="Arr1">Array N1</param>
-        /// <param name="Arr2">Array N2</param>
-        /// <param name="Operation">Type of operation</param>
+        /// <param name="arr1">Array N1</param>
+        /// <param name="arr2">Array N2</param>
+        /// <param name="operation">Type of operation</param>
         /// <returns>int[] Array</returns>
         /// <exception cref="Exception"></exception>
-        public static int[] OperateIntArr(int[] Arr1, int[] Arr2, ArrayOperation Operation)
+        public static int[] OperateIntArr(int[] arr1, int[] arr2, ArrayOperation operation)
         {
-            if (Arr1.Length != Arr2.Length)
+            if (arr1.Length != arr2.Length)
             {
                 throw new Exception("Количество элементов в массиве должно совпадать");
             }
 
-            var resArr = new int[Arr1.Length];
+            var resArr = new int[arr1.Length];
 
-            for (var i = 0; i < Arr1.Length; i++)
+            for (var i = 0; i < arr1.Length; i++)
             {
-                switch (Operation)
+                switch (operation)
                 {
                     case ArrayOperation.Plus:
-                        resArr[i] = Arr1[i] + Arr2[i];
+                        resArr[i] = arr1[i] + arr2[i];
                         break;
                     case ArrayOperation.Minus:
-                        resArr[i] = Arr1[i] - Arr2[i];
+                        resArr[i] = arr1[i] - arr2[i];
                         break;
                     case ArrayOperation.Multiplication:
-                        resArr[i] = Arr1[i] * Arr2[i];
+                        resArr[i] = arr1[i] * arr2[i];
                         break;
                     case ArrayOperation.Division:
-                        resArr[i] = (Arr1[i] / Arr2[i]);
+                        resArr[i] = (arr1[i] / arr2[i]);
                         break;
                     default:
-                        resArr[i] = Arr1[i];
+                        resArr[i] = arr1[i];
                         break;
                 }
             }
@@ -79,18 +79,18 @@ namespace Example_005
         /// <summary>
         /// Multiply matrix by number
         /// </summary>
-        /// <param name="Matrix"></param>
+        /// <param name="matrix"></param>
         /// <param name="k"></param>
         /// <returns>int[,] Array</returns>
-        public static int[,] MultiplyMatrixByNumber(int[,] Matrix, int k)
+        public static int[,] MultiplyMatrixByNumber(int[,] matrix, int k)
         {
-            var resMatrix = new int[Matrix.GetLength(0), Matrix.GetLength(1)];
+            var resMatrix = new int[matrix.GetLength(0), matrix.GetLength(1)];
 
-            for (int i = 0; i < Matrix.GetLength(0); i++)
+            for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                for (int j = 0; j < Matrix.GetLength(1); j++)
+                for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    resMatrix[i, j] = Matrix[i, j] * k;
+                    resMatrix[i, j] = matrix[i, j] * k;
                 }
             }
 
@@ -100,16 +100,16 @@ namespace Example_005
         /// <summary>
         /// Matrix multiplication
         /// </summary>
-        /// <param name="Matrix1"></param>
-        /// <param name="Matrix2"></param>
+        /// <param name="matrix1"></param>
+        /// <param name="matrix2"></param>
         /// <returns></returns>
         /// <exception cref="Exception"></exception>
-        public static int[,] MatrixMultiplication(int[,] Matrix1, int[,] Matrix2)
+        public static int[,] MatrixMultiplication(int[,] matrix1, int[,] matrix2)
         {
-            int n1 = Matrix1.GetLength(0);
-            int m1 = Matrix1.GetLength(1);
-            int n2 = Matrix2.GetLength(0);
-            int m2 = Matrix2.GetLength(1);
+            int n1 = matrix1.GetLength(0);
+            int m1 = matrix1.GetLength(1);
+            int n2 = matrix2.GetLength(0);
+            int m2 = matrix2.GetLength(1);
 
             if (n2 != m1)
             {
@@ -124,7 +124,7 @@ namespace Example_005
                     resMatrix[i, j] = 0;
                     for (int k = 0; k < m1; k++)
                     {
-                        resMatrix[i, j] += Matrix1[i, k] * Matrix2[k, j];
+                        resMatrix[i, j] += matrix1[i, k] * matrix2[k, j];
                     }
                 }
             }
@@ -135,20 +135,20 @@ namespace Example_005
         /// <summary>
         /// Generating a random matrix
         /// </summary>
-        /// <param name="N">Rows count</param>
-        /// <param name="M">Columns count</param>
-        /// <param name="Min">Min value in matrix</param>
-        /// <param name="Max">Max value in matrix</param>
+        /// <param name="n">Rows count</param>
+        /// <param name="m">Columns count</param>
+        /// <param name="min">Min value in matrix</param>
+        /// <param name="max">Max value in matrix</param>
         /// <returns>int[,] Array</returns>
-        public static int[,] GetRandomIntMatrix(int N, int M, int Min, int Max)
+        public static int[,] GetRandomIntMatrix(int n, int m, int min, int max)
         {
             var random = new Random(Guid.NewGuid().GetHashCode());
-            var matrix = new int[N, N];
-            for (var i = 0; i < N; i++)
+            var matrix = new int[n, n];
+            for (var i = 0; i < n; i++)
             {
-                for (var j = 0; j < M; j++)
+                for (var j = 0; j < m; j++)
                 {
-                    matrix[i, j] = random.Next(Min, Max);
+                    matrix[i, j] = random.Next(min, max);
                 }
             }
 

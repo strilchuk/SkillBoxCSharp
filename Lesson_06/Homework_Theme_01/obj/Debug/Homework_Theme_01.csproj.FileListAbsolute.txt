@@ -5,3 +5,10 @@ C:\code\Skillbox\Профессия Разработчик игр на Unity с 
 C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Lesson_06\Homework_Theme_01\obj\Debug\Homework_Theme_01.csproj.CoreCompileInputs.cache
 C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Lesson_06\Homework_Theme_01\obj\Debug\Homework_Theme_01.exe
 C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Lesson_06\Homework_Theme_01\obj\Debug\Homework_Theme_01.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_06\Homework_Theme_01\bin\Debug\Homework_Theme_01.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_06\Homework_Theme_01\bin\Debug\Homework_Theme_01.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_06\Homework_Theme_01\bin\Debug\Homework_Theme_01.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_06\Homework_Theme_01\obj\Debug\Homework_Theme_01.csprojAssemblyReference.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_06\Homework_Theme_01\obj\Debug\Homework_Theme_01.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_06\Homework_Theme_01\obj\Debug\Homework_Theme_01.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_06\Homework_Theme_01\obj\Debug\Homework_Theme_01.pdb

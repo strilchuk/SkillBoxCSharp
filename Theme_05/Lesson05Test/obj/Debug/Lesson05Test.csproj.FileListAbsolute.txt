@@ -10,3 +10,15 @@ C:\code\Skillbox\Профессия Разработчик игр на Unity с 
 C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_05\Lesson05Test\obj\Debug\Lesson05Test.csproj.CopyComplete
 C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_05\Lesson05Test\obj\Debug\Lesson05Test.dll
 C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_05\Lesson05Test\obj\Debug\Lesson05Test.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test\bin\Debug\Lesson05Test.dll
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test\bin\Debug\Lesson05Test.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test\bin\Debug\Example_005.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test\bin\Debug\nunit.framework.dll
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test\bin\Debug\Example_005.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test\bin\Debug\Example_005.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test\bin\Debug\nunit.framework.xml
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test\obj\Debug\Lesson05Test.csprojAssemblyReference.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test\obj\Debug\Lesson05Test.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test\obj\Debug\Lesson05Test.csproj.CopyComplete
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test\obj\Debug\Lesson05Test.dll
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Lesson05Test\obj\Debug\Lesson05Test.pdb
