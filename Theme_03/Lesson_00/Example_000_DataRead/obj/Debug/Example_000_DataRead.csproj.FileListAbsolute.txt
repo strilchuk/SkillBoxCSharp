@@ -1,0 +1,14 @@
+D:\ Work\SkillBox\CodeSource\Theme_03\Lesson_00\Example_000_DataRead\bin\Debug\Example_000_DataRead.exe.config
+D:\ Work\SkillBox\CodeSource\Theme_03\Lesson_00\Example_000_DataRead\bin\Debug\Example_000_DataRead.exe
+D:\ Work\SkillBox\CodeSource\Theme_03\Lesson_00\Example_000_DataRead\bin\Debug\Example_000_DataRead.pdb
+D:\ Work\SkillBox\CodeSource\Theme_03\Lesson_00\Example_000_DataRead\obj\Debug\Example_000_DataRead.csprojAssemblyReference.cache
+D:\ Work\SkillBox\CodeSource\Theme_03\Lesson_00\Example_000_DataRead\obj\Debug\Example_000_DataRead.csproj.CoreCompileInputs.cache
+D:\ Work\SkillBox\CodeSource\Theme_03\Lesson_00\Example_000_DataRead\obj\Debug\Example_000_DataRead.exe
+D:\ Work\SkillBox\CodeSource\Theme_03\Lesson_00\Example_000_DataRead\obj\Debug\Example_000_DataRead.pdb
+C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_03\Lesson_00\Example_000_DataRead\bin\Debug\Example_000_DataRead.exe.config
+C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_03\Lesson_00\Example_000_DataRead\bin\Debug\Example_000_DataRead.exe
+C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_03\Lesson_00\Example_000_DataRead\bin\Debug\Example_000_DataRead.pdb
+C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_03\Lesson_00\Example_000_DataRead\obj\Debug\Example_000_DataRead.csprojAssemblyReference.cache
+C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_03\Lesson_00\Example_000_DataRead\obj\Debug\Example_000_DataRead.csproj.CoreCompileInputs.cache
+C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_03\Lesson_00\Example_000_DataRead\obj\Debug\Example_000_DataRead.exe
+C:\code\Skillbox\Профессия Разработчик игр на Unity с нуля до Middle\Профессия C#–разработчик с нуля до PRO\5. Методы\5.1 Исходники Модуль 5\Theme_03\Lesson_00\Example_000_DataRead\obj\Debug\Example_000_DataRead.pdb
