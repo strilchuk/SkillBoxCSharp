@@ -16,7 +16,17 @@ namespace Example_005
             
             Console.Clear();
             UtilsCommon.WriteOnCenter("Выполняем задачу 4");
+            var n = UtilsCommon.ReadIntParameter("Введите количество элементов последовательности");
+            var arrInt = new int[n];
+            for (int i = 0; i < n; i++)
+            {
+                arrInt[i] = UtilsCommon.ReadIntParameter($"Введите {(i + 1)}й элемент последовательности");
+            }
+
+            var resProgression = UtilsMath.IsProgression(arrInt);
             
+            Console.WriteLine($"Данная последовательность является арифметической: {(resProgression.isArithmetic ? "Да":"Нет")}");
+            Console.WriteLine($"Данная последовательность является геометрической: {(resProgression.isGeometric ? "Да":"Нет")}");
         }
     }
 }

@@ -1,0 +1,6 @@
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_003_Params\bin\Debug\Example_003_Params.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_003_Params\bin\Debug\Example_003_Params.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_003_Params\bin\Debug\Example_003_Params.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_003_Params\obj\Debug\Example_003_Params.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_003_Params\obj\Debug\Example_003_Params.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_003_Params\obj\Debug\Example_003_Params.pdb

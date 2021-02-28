@@ -16,7 +16,10 @@ namespace Example_005
             
             Console.Clear();
             UtilsCommon.WriteOnCenter("Выполняем задачу 5");
-            
+            var n = UtilsCommon.ReadIntParameter("Введите первое число");
+            var m = UtilsCommon.ReadIntParameter("Введите второе число");
+            var res = UtilsMath.AccermanFunction((ulong) n, (ulong) m);
+            Console.WriteLine($"Ответ:{res}");
         }
     }
 }

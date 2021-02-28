@@ -5,3 +5,10 @@ C:\Users\Sk\source\repos\SkillBoxCodeSource\Lesson_01\HelloWorldConsoleApp\obj\D
 C:\Users\Sk\source\repos\SkillBoxCodeSource\Lesson_01\HelloWorldConsoleApp\obj\Debug\HelloWorldConsoleApp.csproj.CoreCompileInputs.cache
 C:\Users\Sk\source\repos\SkillBoxCodeSource\Lesson_01\HelloWorldConsoleApp\obj\Debug\HelloWorldConsoleApp.exe
 C:\Users\Sk\source\repos\SkillBoxCodeSource\Lesson_01\HelloWorldConsoleApp\obj\Debug\HelloWorldConsoleApp.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_01\HelloWorldConsoleApp\bin\Debug\HelloWorldConsoleApp.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_01\HelloWorldConsoleApp\bin\Debug\HelloWorldConsoleApp.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_01\HelloWorldConsoleApp\bin\Debug\HelloWorldConsoleApp.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_01\HelloWorldConsoleApp\obj\Debug\HelloWorldConsoleApp.csprojAssemblyReference.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_01\HelloWorldConsoleApp\obj\Debug\HelloWorldConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_01\HelloWorldConsoleApp\obj\Debug\HelloWorldConsoleApp.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_01\HelloWorldConsoleApp\obj\Debug\HelloWorldConsoleApp.pdb

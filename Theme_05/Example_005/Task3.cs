@@ -15,7 +15,9 @@ namespace Example_005
             
             Console.Clear();
             UtilsCommon.WriteOnCenter("Выполняем задачу 3");
-            
+            var text = UtilsCommon.ReadStringParameter("1. Введите текст:");
+            var handledText = UtilsString.GroupTextByChars(text);
+            Console.WriteLine($"{text} >>> {handledText}");
         }
     }
 }

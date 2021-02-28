@@ -5,3 +5,10 @@ D:\ Work\SkillBox\CodeSource\Theme_05\Example_001_Method\obj\Debug\Example_001_
 D:\ Work\SkillBox\CodeSource\Theme_05\Example_001_Method\obj\Debug\Example_001_Method.csproj.CoreCompileInputs.cache
 D:\ Work\SkillBox\CodeSource\Theme_05\Example_001_Method\obj\Debug\Example_001_Method.exe
 D:\ Work\SkillBox\CodeSource\Theme_05\Example_001_Method\obj\Debug\Example_001_Method.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_Method\bin\Debug\Example_001_Method.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_Method\bin\Debug\Example_001_Method.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_Method\bin\Debug\Example_001_Method.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_Method\obj\Debug\Example_001_Method.csprojAssemblyReference.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_Method\obj\Debug\Example_001_Method.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_Method\obj\Debug\Example_001_Method.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_Method\obj\Debug\Example_001_Method.pdb

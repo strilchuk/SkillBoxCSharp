@@ -5,3 +5,10 @@ D:\ Work\SkillBox\CodeSource\Theme_04\Example_004_Array2D\obj\Debug\Example_004
 D:\ Work\SkillBox\CodeSource\Theme_04\Example_004_Array2D\obj\Debug\Example_004_Array2D.csproj.CoreCompileInputs.cache
 D:\ Work\SkillBox\CodeSource\Theme_04\Example_004_Array2D\obj\Debug\Example_004_Array2D.exe
 D:\ Work\SkillBox\CodeSource\Theme_04\Example_004_Array2D\obj\Debug\Example_004_Array2D.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_004_Array2D\bin\Debug\Example_004_Array2D.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_004_Array2D\bin\Debug\Example_004_Array2D.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_004_Array2D\bin\Debug\Example_004_Array2D.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_004_Array2D\obj\Debug\Example_004_Array2D.csprojAssemblyReference.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_004_Array2D\obj\Debug\Example_004_Array2D.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_004_Array2D\obj\Debug\Example_004_Array2D.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_004_Array2D\obj\Debug\Example_004_Array2D.pdb

@@ -10,3 +10,9 @@ C:\Users\Sk\Documents\SkillBoxCodeSource\Lesson_04\Example_003_ImplicitTypeСonv
 C:\Users\Sk\Documents\SkillBoxCodeSource\Lesson_04\Example_003_ImplicitTypeСonversion\obj\Debug\Example_002_ImplicitTypeСonversion.csproj.CoreCompileInputs.cache
 C:\Users\Sk\Documents\SkillBoxCodeSource\Lesson_04\Example_003_ImplicitTypeСonversion\obj\Debug\Example_003_ImplicitTypeСonversion.exe
 C:\Users\Sk\Documents\SkillBoxCodeSource\Lesson_04\Example_003_ImplicitTypeСonversion\obj\Debug\Example_003_ImplicitTypeСonversion.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_04\Example_003_ImplicitTypeСonversion\bin\Debug\Example_003_ImplicitTypeСonversion.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_04\Example_003_ImplicitTypeСonversion\bin\Debug\Example_003_ImplicitTypeСonversion.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_04\Example_003_ImplicitTypeСonversion\bin\Debug\Example_003_ImplicitTypeСonversion.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_04\Example_003_ImplicitTypeСonversion\obj\Debug\Example_002_ImplicitTypeСonversion.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_04\Example_003_ImplicitTypeСonversion\obj\Debug\Example_003_ImplicitTypeСonversion.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_04\Example_003_ImplicitTypeСonversion\obj\Debug\Example_003_ImplicitTypeСonversion.pdb

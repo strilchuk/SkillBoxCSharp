@@ -2,7 +2,7 @@
 
 namespace Example_005
 {
-    public class UtilsCommon
+    public static class UtilsCommon
     {
         public enum UserInputStatus
         {
@@ -51,7 +51,7 @@ namespace Example_005
 
             return result;
         }
-        
+       
         /// <summary>
         /// Прочитать из значение типа Int
         /// </summary>
@@ -62,13 +62,13 @@ namespace Example_005
         }
 
         /// <summary>
-        /// Read parameter
+        /// Read int parameter
         /// </summary>
         /// <param name="label"></param>
         /// <param name="min"></param>
         /// <param name="max"></param>
         /// <returns></returns>
-        public static int ReadParameter(string label, int min = 1, int max = 999)
+        public static int ReadIntParameter(string label, int min = 1, int max = 999)
         {
             WriteOnCenter(label);
             var error = UserInputStatus.NoError;
@@ -83,6 +83,17 @@ namespace Example_005
             }
 
             return n;
+        }
+
+        /// <summary>
+        /// Read string parameter
+        /// </summary>
+        /// <param name="label"></param>
+        /// <returns></returns>
+        public static string ReadStringParameter(string label)
+        {
+            WriteOnCenter(label);
+            return Console.ReadLine();
         }
 
         /// <summary>
@@ -125,7 +136,7 @@ namespace Example_005
             WriteOnCenter("════════════");
             WriteOnCenter("0: Выход");
             var error = UserInputStatus.NoError;
-            var resultChoice = (Choice) ReadInt(ref error);;
+            var resultChoice = (Choice) ReadInt(0, 5, ref error);
             if (error != UserInputStatus.NoError)
             {
                 resultChoice = Choice.None;

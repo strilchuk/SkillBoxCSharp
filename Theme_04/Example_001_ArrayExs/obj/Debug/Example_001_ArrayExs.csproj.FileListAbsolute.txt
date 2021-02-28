@@ -5,3 +5,10 @@ D:\ Work\SkillBox\CodeSource\Theme_04\Example_001_ArrayExs\obj\Debug\Example_00
 D:\ Work\SkillBox\CodeSource\Theme_04\Example_001_ArrayExs\obj\Debug\Example_001_ArrayExs.csproj.CoreCompileInputs.cache
 D:\ Work\SkillBox\CodeSource\Theme_04\Example_001_ArrayExs\obj\Debug\Example_001_ArrayExs.exe
 D:\ Work\SkillBox\CodeSource\Theme_04\Example_001_ArrayExs\obj\Debug\Example_001_ArrayExs.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_001_ArrayExs\bin\Debug\Example_001_ArrayExs.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_001_ArrayExs\bin\Debug\Example_001_ArrayExs.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_001_ArrayExs\bin\Debug\Example_001_ArrayExs.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_001_ArrayExs\obj\Debug\Example_001_ArrayExs.csprojAssemblyReference.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_001_ArrayExs\obj\Debug\Example_001_ArrayExs.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_001_ArrayExs\obj\Debug\Example_001_ArrayExs.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_04\Example_001_ArrayExs\obj\Debug\Example_001_ArrayExs.pdb

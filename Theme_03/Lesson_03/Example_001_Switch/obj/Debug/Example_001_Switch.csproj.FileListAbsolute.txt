@@ -1,0 +1,7 @@
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_03\Lesson_03\Example_001_Switch\bin\Debug\Example_001_Switch.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_03\Lesson_03\Example_001_Switch\bin\Debug\Example_001_Switch.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_03\Lesson_03\Example_001_Switch\bin\Debug\Example_001_Switch.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_03\Lesson_03\Example_001_Switch\obj\Debug\Example_001_Switch.csprojAssemblyReference.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_03\Lesson_03\Example_001_Switch\obj\Debug\Example_001_Switch.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_03\Lesson_03\Example_001_Switch\obj\Debug\Example_001_Switch.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_03\Lesson_03\Example_001_Switch\obj\Debug\Example_001_Switch.pdb

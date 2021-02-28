@@ -1,0 +1,6 @@
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_006_BoolTypes\bin\Debug\Example_006_BoolTypes.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_006_BoolTypes\bin\Debug\Example_006_BoolTypes.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_006_BoolTypes\bin\Debug\Example_006_BoolTypes.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_006_BoolTypes\obj\Debug\Example_006_BoolTypes.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_006_BoolTypes\obj\Debug\Example_006_BoolTypes.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_006_BoolTypes\obj\Debug\Example_006_BoolTypes.pdb

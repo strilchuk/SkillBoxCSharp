@@ -17,7 +17,14 @@ namespace Example_005
             
             Console.Clear();
             UtilsCommon.WriteOnCenter("Выполняем задачу 2");
-            
+            var text = UtilsCommon.ReadStringParameter("1. Введите текст:");
+
+            var shortestWord = UtilsString.GetShortestWord(text);
+            var arrayLongestWords = UtilsString.GetLongestWords(text);
+
+            Console.WriteLine($"1. Ответ: {shortestWord}");
+            Console.WriteLine($"2. {string.Join(", ", arrayLongestWords)}");
+
         }
     }
 }

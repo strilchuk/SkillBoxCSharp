@@ -1,0 +1,7 @@
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_002_DataTypes\bin\Debug\Example_002_DataTypes.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_002_DataTypes\bin\Debug\Example_002_DataTypes.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_002_DataTypes\bin\Debug\Example_002_DataTypes.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_002_DataTypes\obj\Debug\Example_002_DataTypes.csprojAssemblyReference.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_002_DataTypes\obj\Debug\Example_002_DataTypes.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_002_DataTypes\obj\Debug\Example_002_DataTypes.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Lesson_02\Example_002_DataTypes\obj\Debug\Example_002_DataTypes.pdb

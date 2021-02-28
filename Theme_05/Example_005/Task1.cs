@@ -18,9 +18,9 @@ namespace Example_005
             UtilsCommon.WriteOnCenter("");
             UtilsCommon.WriteOnCenter("Умножение матрицы на число");
             UtilsCommon.WriteOnCenter("");
-            var n = UtilsCommon.ReadParameter("Введите количество строк матрицы:");
-            var m = UtilsCommon.ReadParameter("Введите количество столбцов матрицы:");
-            var k = UtilsCommon.ReadParameter("Введите число, на которое нужно умножить матрицу:");
+            var n = UtilsCommon.ReadIntParameter("Введите количество строк матрицы:");
+            var m = UtilsCommon.ReadIntParameter("Введите количество столбцов матрицы:");
+            var k = UtilsCommon.ReadIntParameter("Введите число, на которое нужно умножить матрицу:");
             var matrix = UtilsArray.GetRandomIntMatrix(n, m, 0, 50);
             var resMatrix = UtilsArray.MultiplyMatrixByNumber(matrix, k);
             OutputMultiplyMatrixByNumberResult(k, matrix, resMatrix);
@@ -28,8 +28,8 @@ namespace Example_005
             UtilsCommon.WriteOnCenter("");
             UtilsCommon.WriteOnCenter("Сложение двух матриц");
             UtilsCommon.WriteOnCenter("");
-            n = UtilsCommon.ReadParameter("Введите количество строк матрицы:");
-            m = UtilsCommon.ReadParameter("Введите количество столбцов матрицы:");
+            n = UtilsCommon.ReadIntParameter("Введите количество строк матрицы:");
+            m = UtilsCommon.ReadIntParameter("Введите количество столбцов матрицы:");
             var matrix1 = UtilsArray.GetRandomIntMatrix(n, m, 0, 50);
             var matrix2 = UtilsArray.GetRandomIntMatrix(n, m, 0, 50);
             resMatrix = UtilsArray.SummationMatrix(matrix1, matrix2, UtilsArray.MatrixOperation.Plus);
@@ -38,10 +38,10 @@ namespace Example_005
             UtilsCommon.WriteOnCenter("");
             UtilsCommon.WriteOnCenter("Умножение двух матриц");
             UtilsCommon.WriteOnCenter("");
-            var n1 = UtilsCommon.ReadParameter("Введите количество строк 1й матрицы:");
-            var m1 = UtilsCommon.ReadParameter("Введите количество столбцов 1й матрицы:");
+            var n1 = UtilsCommon.ReadIntParameter("Введите количество строк 1й матрицы:");
+            var m1 = UtilsCommon.ReadIntParameter("Введите количество столбцов 1й матрицы:");
             var n2 = m1;
-            var m2 = UtilsCommon.ReadParameter("Введите количество столбцов 2й матрицы:");
+            var m2 = UtilsCommon.ReadIntParameter("Введите количество столбцов 2й матрицы:");
             matrix1 = UtilsArray.GetRandomIntMatrix(n1, m1, 0, 50);
             matrix2 = UtilsArray.GetRandomIntMatrix(n2, m2, 0, 50);
             resMatrix = UtilsArray.MatrixMultiplication(matrix1, matrix2);

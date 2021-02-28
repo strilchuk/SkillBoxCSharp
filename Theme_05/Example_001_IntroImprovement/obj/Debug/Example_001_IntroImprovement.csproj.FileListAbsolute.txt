@@ -1,0 +1,6 @@
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_IntroImprovement\bin\Debug\Example_001_IntroImprovement.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_IntroImprovement\bin\Debug\Example_001_IntroImprovement.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_IntroImprovement\bin\Debug\Example_001_IntroImprovement.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_IntroImprovement\obj\Debug\Example_001_IntroImprovement.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_IntroImprovement\obj\Debug\Example_001_IntroImprovement.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_001_IntroImprovement\obj\Debug\Example_001_IntroImprovement.pdb

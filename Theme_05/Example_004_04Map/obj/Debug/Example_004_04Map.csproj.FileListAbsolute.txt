@@ -5,3 +5,10 @@ D:\ Work\SkillBox\CodeSource\Theme_05\Example_004_04Map\obj\Debug\Example_004_0
 D:\ Work\SkillBox\CodeSource\Theme_05\Example_004_04Map\obj\Debug\Example_004_04Map.exe
 D:\ Work\SkillBox\CodeSource\Theme_05\Example_004_04Map\obj\Debug\Example_004_04Map.pdb
 D:\ Work\SkillBox\CodeSource\Theme_05\Example_004_04Map\obj\Debug\Example_004_04Map.csprojAssemblyReference.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_004_04Map\bin\Debug\Example_004_04Map.exe.config
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_004_04Map\bin\Debug\Example_004_04Map.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_004_04Map\bin\Debug\Example_004_04Map.pdb
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_004_04Map\obj\Debug\Example_004_04Map.csprojAssemblyReference.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_004_04Map\obj\Debug\Example_004_04Map.csproj.CoreCompileInputs.cache
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_004_04Map\obj\Debug\Example_004_04Map.exe
+C:\Users\strilchuk\Documents\GitHub\SkillBoxCSharp\Theme_05\Example_004_04Map\obj\Debug\Example_004_04Map.pdb

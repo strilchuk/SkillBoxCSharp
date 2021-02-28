@@ -52,6 +52,8 @@
     <Compile Include="Task5.cs" />
     <Compile Include="UtilsArray.cs" />
     <Compile Include="UtilsCommon.cs" />
+    <Compile Include="UtilsMath.cs" />
+    <Compile Include="UtilsString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
